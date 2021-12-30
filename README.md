@@ -25,6 +25,20 @@ projet de site en sass
             "sass": "sass --watch ./main.scss:./style.css"
         },```
 
+## Reprendre le projet depuis le dépot
+- Cloner le projet sur github
+    ```bash
+        git clone git@github.com:StevenLignereux/spaceTravel.git
+    ```
+- Positionner vous dans le dossier du projet
+    ```bash
+        cd spaceTravel
+    ```
+    Puis lancer la commande npm install:
+    ```bash
+        npm install
+    ```
+    
 ## Lancer le projet
 
 Pour lancer le projet faite la commande (a effectuer à chaque fois que vous reprenez le projet): 
