@@ -23,7 +23,8 @@ projet de site en sass
     ```json
         "scripts": {
             "sass": "sass --watch ./main.scss:./style.css"
-        },```
+        },
+    ```
 
 ## Reprendre le projet depuis le dépot
 - Cloner le projet sur github
@@ -38,7 +39,7 @@ projet de site en sass
     ```bash
         npm install
     ```
-    
+
 ## Lancer le projet
 
 Pour lancer le projet faite la commande (a effectuer à chaque fois que vous reprenez le projet): 
