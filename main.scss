@@ -165,8 +165,6 @@ a {
 // ************** PRICING **************************************************************
 .offers {
     padding-top: 50px;
-    display: flex;
-    align-items: center;
 }
 
 .perspective {
@@ -178,6 +176,7 @@ a {
     &__3d {
         width: 140px;
         height: 200px;
+        margin: auto;
         box-shadow: 0 70px 63px -60px #494848;
         transform-style: preserve-3d;
         transition: transform 0.05s linear;
@@ -188,16 +187,17 @@ a {
             width: 100%;
             border-radius: 15px;
 
-            &::after {
+            &:after {
                 background: inherit;
                 content: '';
+                display: block;
                 position: absolute;
                 left: -60px;
-                top: -40px;
+                top: 40px;
                 width: 100%;
                 height: 85%;
                 z-index: -1;
-                filter: blur(55px);
+                filter: blur(50px);
             }
         }
     }
@@ -217,6 +217,6 @@ a {
         right: -10px;
         font-size: 0.8em;
         font-weight: 600;
-        transform: translateX(35px);
+        transform: translateZ(35px)
     }
 }
