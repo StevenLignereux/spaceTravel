@@ -1,0 +1,22 @@
+{
+  "name": "spacetravel",
+  "version": "1.0.0",
+  "description": "projet de site en sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenLignereux/spaceTravel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenLignereux/spaceTravel/issues"
+  },
+  "homepage": "https://github.com/StevenLignereux/spaceTravel#readme",
+  "dependencies": {
+    "sass": "^1.45.1"
+  }
+}
